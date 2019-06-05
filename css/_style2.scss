@@ -1,0 +1,56 @@
+.cube__side,
+.no-js .cube {
+  border: none;
+  outline:1px solid white;
+  /*background-color: hsla(149, 100%, 29%, 0.77);*/
+  background-blend-mode: multiply;
+  display: grid;
+  align-items: center;  
+}
+
+/* With JS we insert a number span into the cube */
+
+.cube__number,
+.no-js .cube::after {
+    font-family: $brand-font;
+    right: initial;
+    bottom: initial;
+	line-height: 1;
+	font-size: 4em;
+    color: white;
+	text-align: center; 
+	width: 100%
+}
+
+.cube--inactive {
+      
+    .cube__side {
+
+    }
+    .cube__side--front,
+    .cube__side--back,     
+    .cube__side--left,     
+    .cube__side--right,    
+    .cube__side--top,   
+    .cube__side--bottom {
+        background-color: transparent;         
+    }
+
+     .cube__number {
+        color: hsla(0, 0%, 100%, 0.61);
+     }
+}
+
+/*@media screen and (max-width: 50.75em) {
+	.cube__number,
+	.no-js .cube::after {
+		font-size: 1em;
+	}
+}*/
+
+
+
+
+
+
+
