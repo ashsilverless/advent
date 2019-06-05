@@ -14,11 +14,10 @@
 .no-js .cube::after {
     font-family: $brand-font;
     right: initial;
-    bottom: initial;
-	line-height: 1;
-	font-size: 4em;
+    left:0.25em;
+    font-size: 2em;
     color: white;
-	text-align: center; 
+	text-align: left; 
 	width: 100%
 }
 
@@ -37,6 +36,11 @@
     }
 
      .cube__number {
+        bottom: initial;
+        left:initial;
+        text-align: center;
+        line-height: 1;
+        font-size: 4em;
         color: hsla(0, 0%, 100%, 0.61);
      }
 }
