@@ -51,11 +51,11 @@
 
 	<header>
     	
-        	<div class="logo">
+        	<!--<div class="logo">
             	
             <img src="<?php the_field('logo', 'options');?>"/>
             
-        	</div>
+        	</div>-->
         
         	<div class="page-title">
             	
