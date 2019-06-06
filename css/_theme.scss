@@ -157,6 +157,15 @@ header {
         
             
         }
+    
+        
+    h2.heading {
+        display: block;
+        font-size: 3em;
+        margin-bottom: -18px;
+        line-height: 1em;
+        color: hsl(203, 99%, 62%);
+    }
         
 
     }
@@ -614,6 +623,11 @@ header .logo img {
 .pledge img {
   height: 3.5em;
 }
+
+header .page-title h2.heading {
+  margin-bottom: -8px;
+}
+
     
 }
 
@@ -621,10 +635,6 @@ header .logo img {
 
 body {
     font-size: 10px;
-}
-
-.page-title {
-    padding-top:6em;
 }
 
 header .logo {
@@ -712,6 +722,14 @@ header .logo {
   margin: 1em 0;
   padding: 0;
 }
+
+.love-farm {
+  right: -10em;
+  }
+
+.cube--inactive .cube__number {
+  font-size: 2.5em;
+  }
     
 }
 

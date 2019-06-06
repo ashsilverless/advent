@@ -58,7 +58,7 @@
         	</div>-->
         
         	<div class="page-title">
-            	
+            	<h2 class="heading heading__sm">Glastonbury</h2>
             	<h1 class="heading heading__xl"><span>Unofficial</span>Advent Calendar</h1>
         
         	</div>
